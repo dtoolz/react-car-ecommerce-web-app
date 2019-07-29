@@ -1,10 +1,10 @@
 export const storeProducts = [
     {
       id: 1,
-      title: "Tecno Camon CX - Black",
-      img: "img/product-1.png",
+      title: "Range Rover- White",
+      img: "img/car1.jpg",
       price: 17,
-      company: "TECNO",
+      company: "SUV",
       info: 
           "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus  id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut etvoluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." ,
       inCart: false,
@@ -13,10 +13,10 @@ export const storeProducts = [
     },
     {
         id: 2,
-        title: "HTC 10 - Black",
-        img: "img/product-2.png",
+        title: "Mercedes Benz- Silver",
+        img: "img/car2.jpg",
         price: 16,
-        company: "HTC",
+        company: "Mercedes",
         info: 
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." ,
         inCart: false,
@@ -25,10 +25,10 @@ export const storeProducts = [
       },
       {
         id: 3,
-        title: "Google Pixel - Black",
-        img: "img/product-3.png",
+        title: "Chevrolet Corvette - Black",
+        img: "img/car3.jpg",
         price: 16,
-        company: "GOOGLE",
+        company: "CHEVROLET",
         info: 
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." ,
         inCart: false,
@@ -37,10 +37,10 @@ export const storeProducts = [
       },
       {
         id: 4,
-        title: "iphone 5 plus - white",
-        img: "img/product-4.png",
+        title: "Alfa Romeo C4 - Red",
+        img: "img/car4.jpg",
         price: 18,
-        company: "APPLE",
+        company: "ROMEO",
         info: 
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." ,
         inCart: false,
@@ -49,10 +49,10 @@ export const storeProducts = [
       },
       {
         id: 5,
-        title: "Samsung Galaxy S7 - Gold",
-        img: "img/product-5.png",
+        title: "Bmw Sedan - Blue",
+        img: "img/car5.jpg",
         price: 19,
-        company: "SAMSUNG",
+        company: "BMW",
         info: 
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." ,
         inCart: false,
@@ -61,10 +61,10 @@ export const storeProducts = [
       },
       {
         id: 6,
-        title: "Samsung Galaxy S9 - black",
-        img: "img/product-6.png",
+        title: "Ferari - Red",
+        img: "img/car6.jpg",
         price: 14,
-        company: "SAMSUNG",
+        company: "FERARI",
         info: 
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." ,
         inCart: false,
@@ -73,8 +73,8 @@ export const storeProducts = [
       },
       {
         id: 7,
-        title: "Huawei Mate - Grey",
-        img: "img/product-7.png",
+        title: "Rubicon - Ash",
+        img: "img/car7.jpg",
         price: 17,
         company: "HUAWEI",
         info: 
@@ -85,10 +85,10 @@ export const storeProducts = [
       },
       {
         id: 8,
-        title: "iphone 6 plus - white",
-        img: "img/product-8.png",
+        title: "Lamborghini - Orange",
+        img: "img/car8.jpg",
         price: 16,
-        company: "APPLE",
+        company: "LAMBORGHINI",
         info: 
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." ,
         inCart: false,
