@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import { ProductConsumer } from "../context";
 
+
 export default class Product extends Component {
     render() {
         //props in the ProductList as product
@@ -36,6 +37,8 @@ export default class Product extends Component {
         );
     }
 }
+
+
 
 const ProductWrapper = styled.div`
   .card{

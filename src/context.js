@@ -7,9 +7,25 @@ const ProductContext = React.createContext();
 
 class ProductProvider extends Component {
     state ={
-        products:storeProducts,
+        products:[],
         detailProduct:detailProduct,
     };
+
+    componentDidMount() {
+        this.setProducts();
+      };
+
+      //getting modified values of the datajs objects, so that initial values of storeProducts will be untouched for easy reference.
+    setProducts= () => {
+        let tempProducts= [];
+        storeProducts.forEach(item => {
+          const singleItem = {...item};
+          tempProducts = [...tempProducts, singleItem];
+        });
+        this.setState (() =>{
+          return {products: tempProducts};
+        });
+      };
     //creating methods to control products gotten from datajs 
     handleDetail = () => {
 
