@@ -9,6 +9,7 @@ class ProductProvider extends Component {
     state ={
         products:[],
         detailProduct:detailProduct,
+        cart:[]
     };
 
     componentDidMount() {
@@ -40,9 +41,20 @@ class ProductProvider extends Component {
       });
     };
 
-    addToCart = () => {
-        
-    }
+    addToCart = id => {
+      let tempProducts = [...this.state.products];
+      const index = tempProducts.indexOf(this.getItem(id));
+      const product = tempProducts[index];
+      product.inCart = true;
+      product.count =1;
+      const price = product.price;
+      product.total = price;
+    this.setState(() => {
+      return {products : tempProducts,cart:[...this.state.cart,product]};
+    },
+       //() => { this.addTotals(); }
+       );
+    };
 
     render() {
         return (
