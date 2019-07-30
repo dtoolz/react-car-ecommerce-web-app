@@ -9,6 +9,7 @@ export default class Details extends Component {
         return (
             <ProductConsumer>
                 {(value) =>{
+                    //from value.detailsProduct below as product in contextjs
                     const {id,company,img,info,price,title,inCart} = value.detailProduct;
                     return (
                        <div className="container py-5">
@@ -45,7 +46,7 @@ export default class Details extends Component {
                                   <Link to='./cart'>
                                    <ButtonContainer cart disabled={inCart ? true : false}
                                     onClick={()=>{ 
-                                        value.AddToCart(id);
+                                        value.addToCart(id);
                                         value.openModal(id);
                                    }}>
                                       {inCart ? "inCart" : "Add To Cart"}
