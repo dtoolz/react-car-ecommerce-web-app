@@ -44,11 +44,14 @@ export default class Product extends Component {
 const ProductWrapper = styled.div`
   .card{
     border-color:transparent;
+    background: var(--lightAnyy) !important;
     transition:all 0.2s linear;
   }
-
+  .text-green{
+    color: var(--lightGreen) !important;
+  }
   .card-footer{
-    background:transparent;
+    background:var(--lightAnyy) !important;
     border-top:transparent;
     transition:all 0.2s linear;
   }

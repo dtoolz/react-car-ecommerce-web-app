@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
 import Details from './components/Details';
+//package.json file used to declare Cartjs as the main file, relative path ignored
 import Cart from './components/Cart';
 import Default from './components/Default';
 import Modal  from './components/Modal';
