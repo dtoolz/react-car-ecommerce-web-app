@@ -14,6 +14,7 @@ body{
   background: var(--lightAny) !important;
   color: var(--mainDark) !important;
 }
+
 .text-title{
   font-family: 'Metal Mania', cursive;
   letter-spacing: 0.3rem;
