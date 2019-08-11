@@ -1,4 +1,4 @@
-Live version of this project is available at dtoolz-cars.netlify.com
+Live version of this project is available at https://dtoolz-cars.netlify.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
